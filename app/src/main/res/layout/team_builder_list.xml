@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectbufflist3"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectdebufflist3"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist3" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectbufflist4"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist4" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectdebufflist4"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist4" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectbufflist2"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectdebufflist2"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="252dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectdebufflist1"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selectbufflist1"
+        android:layout_width="123dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="136dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecttextteamlist1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectteamlist1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="onClickerino"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@android:drawable/ic_menu_help" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectteamlist2"
+        android:layout_width="150dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onClickerino"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@android:drawable/ic_menu_help" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectteamlist3"
+        android:layout_width="153dp"
+        android:layout_height="161dp"
+        android:layout_marginBottom="184dp"
+        android:onClick="onClickerino"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@android:drawable/ic_menu_help" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/selectteamlist4"
+        android:layout_width="154dp"
+        android:layout_height="158dp"
+        android:onClick="onClickerino"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:src="@android:drawable/ic_menu_help" />
+
+    <TextView
+        android:id="@+id/selecttextteamlist1"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:gravity="center_horizontal"
+        android:text="Please Select a Hero"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/selecttextteamlist3"
+        android:layout_width="254dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="300dp"
+        android:gravity="center_horizontal"
+        android:text="Please Select a Hero"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/selecttextteamlist4"
+        android:layout_width="253dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center_horizontal"
+        android:text="Please Select a Hero"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/selecttextteamlist2"
+        android:layout_width="261dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:text="Please Select a Hero"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/saveteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/selectdebufflist4"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

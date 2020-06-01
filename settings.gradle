@@ -1,0 +1,2 @@
+rootProject.name='Epic Seven Hero Builder'
+include ':app'
