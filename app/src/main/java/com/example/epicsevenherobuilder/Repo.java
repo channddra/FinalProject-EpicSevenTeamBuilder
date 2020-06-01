@@ -37,9 +37,9 @@ public class Repo {
         fillHero(4,"Yufine", "http://epic7x.com/wp-content/uploads/2019/01/yufine-full.png", new ArrayList<Integer>(Arrays.asList(1,1,0)), new ArrayList<Integer>(Arrays.asList(0,0,1)));
         fillHero(5,"Arbiter Vildred", "https://external-preview.redd.it/gXF_-oWmTeNyRw66uYHKhuBCsmRvwNbwuVgB1OEgZZ4.jpg?auto=webp&s=6136609b0c6b97b47ea9a632dce6d92d4d2bbf30", new ArrayList<Integer>(Arrays.asList(1,0,0)), new ArrayList<Integer>(Arrays.asList(0,0,0)));
         fillHero(6,"Kayron", "https://i.redd.it/2cs0cg48u7y41.jpg", new ArrayList<Integer>(Arrays.asList(1,1,1)), new ArrayList<Integer>(Arrays.asList(0,0,1)));
-        fillHero(7,"Elphet Valentine", "http://epic7x.com/wp-content/uploads/2020/04/Valentine.png", new ArrayList<Integer>(Arrays.asList(0,1,1)), new ArrayList<Integer>(Arrays.asList(0,1,0)));
-        fillHero(8,"Elphet Valentine", "http://epic7x.com/wp-content/uploads/2020/04/Valentine.png", new ArrayList<Integer>(Arrays.asList(0,1,1)), new ArrayList<Integer>(Arrays.asList(0,1,0)));
-        fillHero(9,"Elphet Valentine", "http://epic7x.com/wp-content/uploads/2020/04/Valentine.png", new ArrayList<Integer>(Arrays.asList(0,1,1)), new ArrayList<Integer>(Arrays.asList(0,1,0)));
+        fillHero(7,"Apocalypse Ravi", "https://epic7x.com/wp-content/uploads/2019/07/apoc-ravi-full.png", new ArrayList<Integer>(Arrays.asList(0,0,0)), new ArrayList<Integer>(Arrays.asList(0,1,1)));
+        fillHero(8,"Charles", "https://epic7x.com/wp-content/uploads/2019/03/charles-full.png", new ArrayList<Integer>(Arrays.asList(0,0,1)), new ArrayList<Integer>(Arrays.asList(1,0,0)));
+        fillHero(9,"Basar", "https://epic7x.com/wp-content/uploads/2019/01/basar-full.png", new ArrayList<Integer>(Arrays.asList(1,1,1)), new ArrayList<Integer>(Arrays.asList(0,0,0)));
 
 
 
